@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- basic setup -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 History</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- header with logo and search -->
+  <header>
+    <div class="logo">
+      <img src="Images/logo.png" alt="logo" class="logo">
+    </div>
+    <div class="search-container">
+      <input type="text" placeholder="search" />
+      <div class="profile-icon">&#128100;</div>
+    </div>
+  </header>
+
+  <!-- hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>WELCOME</h1>
+      <p>This website was created to educate new and existing Formula 1 fans on the history behind each team</p>
+      <div class="buttons">
+        <div class="hero-buttons"> 
+          <button class="login">Log In</button>
+          <button class="join">Join Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- carousel -->
+  <section class="carousel">
+    <div class="carousel-images">
+      <!-- each image links to a team page -->
+      <a href="redbull.html">
+        <img src="Images/redbullracing.png" alt="red bull f1 car" class="carousel-img active">
+      </a>
+      <a href="mercedes.html">
+        <img src="Images/mercedes.png" alt="mercedes f1 car" class="carousel-img">
+      </a>
+      <a href="ferrari.html">
+        <img src="Images/ferrari.png" alt="ferrari f1 car" class="carousel-img">
+      </a>
+      <a href="mclaren.html">
+        <img src="Images/mclaren.png" alt="mclaren f1 car" class="carousel-img">
+      </a>
+    </div>
+  
+    <!-- carousel controls -->
+    <div class="carousel-controls">
+      <span>&lt;</span> 
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <span>&gt;</span>
+    </div>
+  </section>
+  
+  <!-- script for carousel -->
+  <script src="carousel.js"></script>
+</body>
+</html>
